@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_dc5602fc6cf3d0adc6c11910180d4e58 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_dc5602fc6cf3d0adc6c11910180d4e58" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_dc5602fc6cf3d0adc6c11910180d4e58 = L.map(
+                "map_dc5602fc6cf3d0adc6c11910180d4e58",
+                {
+                    center: [38.055887931594796, -122.95449740738675],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 10,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_72b4f824ea5ffd6a69a1b5955c7f5a41 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_72b4f824ea5ffd6a69a1b5955c7f5a41.addTo(map_dc5602fc6cf3d0adc6c11910180d4e58);
+        
+    
+            var circle_4c46de36e9a86f75733c94b6d8ad7324 = L.circle(
+                [38.10661757150454, -122.95702440724376],
+                {"bubblingMouseEvents": true, "color": "pink", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 254.96392992098936, "stroke": true, "weight": 3}
+            ).addTo(map_dc5602fc6cf3d0adc6c11910180d4e58);
+        
+    
+        var popup_642ddfca462ccca5bcf9fc9c91f0429b = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_4c804ff36665ac3cba75bfd864e93470 = $(`<div id="html_4c804ff36665ac3cba75bfd864e93470" style="width: 100.0%; height: 100.0%;"><b>2011 Dune Restoration Area</b><br>Total plovers observed: 1237<br>Mean nest success: 0.23<br>Number of nests: 78</div>`)[0];
+                popup_642ddfca462ccca5bcf9fc9c91f0429b.setContent(html_4c804ff36665ac3cba75bfd864e93470);
+            
+        
+
+        circle_4c46de36e9a86f75733c94b6d8ad7324.bindPopup(popup_642ddfca462ccca5bcf9fc9c91f0429b)
+        ;
+
+        
+    
+    
+            var circle_784e086d5f6f7683de6164fc8e25c646 = L.circle(
+                [38.031467480562, -122.93422137055407],
+                {"bubblingMouseEvents": true, "color": "pink", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.214015802129853, "stroke": true, "weight": 3}
+            ).addTo(map_dc5602fc6cf3d0adc6c11910180d4e58);
+        
+    
+        var popup_e07b8d69b155ae05192880c3501a6817 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_35f8c12993b2e5bb4f1dba964ae2e43a = $(`<div id="html_35f8c12993b2e5bb4f1dba964ae2e43a" style="width: 100.0%; height: 100.0%;"><b>Drakes Beach</b><br>Total plovers observed: 35<br>Mean nest success: 0.62<br>Number of nests: 1</div>`)[0];
+                popup_e07b8d69b155ae05192880c3501a6817.setContent(html_35f8c12993b2e5bb4f1dba964ae2e43a);
+            
+        
+
+        circle_784e086d5f6f7683de6164fc8e25c646.bindPopup(popup_e07b8d69b155ae05192880c3501a6817)
+        ;
+
+        
+    
+    
+            var circle_ae28573fddbba304a5450c972462bd30 = L.circle(
+                [38.13217363544442, -122.95397891377141],
+                {"bubblingMouseEvents": true, "color": "pink", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1389.6255582274132, "stroke": true, "weight": 3}
+            ).addTo(map_dc5602fc6cf3d0adc6c11910180d4e58);
+        
+    
+        var popup_15b6fefa7907881eab3db7c6eef5d84e = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_794b38419101acd5bf51eb2bbca1b8f2 = $(`<div id="html_794b38419101acd5bf51eb2bbca1b8f2" style="width: 100.0%; height: 100.0%;"><b>Kehoe Beach</b><br>Total plovers observed: 6742<br>Mean nest success: 0.17<br>Number of nests: 86</div>`)[0];
+                popup_15b6fefa7907881eab3db7c6eef5d84e.setContent(html_794b38419101acd5bf51eb2bbca1b8f2);
+            
+        
+
+        circle_ae28573fddbba304a5450c972462bd30.bindPopup(popup_15b6fefa7907881eab3db7c6eef5d84e)
+        ;
+
+        
+    
+    
+            var circle_98d5da24205c617cf5f02724be818765 = L.circle(
+                [38.027771085297566, -122.89969231536617],
+                {"bubblingMouseEvents": true, "color": "pink", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1266.3689453795946, "stroke": true, "weight": 3}
+            ).addTo(map_dc5602fc6cf3d0adc6c11910180d4e58);
+        
+    
+        var popup_5bc1d44f9d0c9442bc3978af380eeeb9 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_64338ba5a67b499293355586096ac675 = $(`<div id="html_64338ba5a67b499293355586096ac675" style="width: 100.0%; height: 100.0%;"><b>Limantour Beach</b><br>Total plovers observed: 6144<br>Mean nest success: 0.16<br>Number of nests: 43</div>`)[0];
+                popup_5bc1d44f9d0c9442bc3978af380eeeb9.setContent(html_64338ba5a67b499293355586096ac675);
+            
+        
+
+        circle_98d5da24205c617cf5f02724be818765.bindPopup(popup_5bc1d44f9d0c9442bc3978af380eeeb9)
+        ;
+
+        
+    
+    
+            var circle_ddc488af344077dcd84e601eb7ec88e9 = L.circle(
+                [38.09289714606326, -122.9675862526103],
+                {"bubblingMouseEvents": true, "color": "pink", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3000.0, "stroke": true, "weight": 3}
+            ).addTo(map_dc5602fc6cf3d0adc6c11910180d4e58);
+        
+    
+        var popup_e91c43c4c68ec247842f1de81fa57674 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_a1fdfd009d548db021f3dfb43f8f2359 = $(`<div id="html_a1fdfd009d548db021f3dfb43f8f2359" style="width: 100.0%; height: 100.0%;"><b>North Beach - Abbott's</b><br>Total plovers observed: 14555<br>Mean nest success: 0.23<br>Number of nests: 268</div>`)[0];
+                popup_e91c43c4c68ec247842f1de81fa57674.setContent(html_a1fdfd009d548db021f3dfb43f8f2359);
+            
+        
+
+        circle_ddc488af344077dcd84e601eb7ec88e9.bindPopup(popup_e91c43c4c68ec247842f1de81fa57674)
+        ;
+
+        
+    
+    
+            var circle_de80e4ee2907a591ccae6ebe699c1eaa = L.circle(
+                [37.95470597105455, -122.97885674696265],
+                {"bubblingMouseEvents": true, "color": "pink", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 76.46856750257643, "stroke": true, "weight": 3}
+            ).addTo(map_dc5602fc6cf3d0adc6c11910180d4e58);
+        
+    
+        var popup_da8a853acf6c6207e9410df424b4aeb6 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_5d14ae9425fce489d3eaea57cdcd6805 = $(`<div id="html_5d14ae9425fce489d3eaea57cdcd6805" style="width: 100.0%; height: 100.0%;"><b>North Beach - South Parking</b><br>Total plovers observed: 371<br>Mean nest success: 0.25<br>Number of nests: 24</div>`)[0];
+                popup_da8a853acf6c6207e9410df424b4aeb6.setContent(html_5d14ae9425fce489d3eaea57cdcd6805);
+            
+        
+
+        circle_de80e4ee2907a591ccae6ebe699c1eaa.bindPopup(popup_da8a853acf6c6207e9410df424b4aeb6)
+        ;
+
+        
+    
+    
+            var circle_67cf36f693a4b23dfb26e9aa2f58cda5 = L.circle(
+                [38.045582631237245, -122.9901218451991],
+                {"bubblingMouseEvents": true, "color": "pink", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.809687392648573, "stroke": true, "weight": 3}
+            ).addTo(map_dc5602fc6cf3d0adc6c11910180d4e58);
+        
+    
+        var popup_1f415a19be966c720a7ca2fe086faf16 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_a02420e6888ce82ff964eac09dd2672a = $(`<div id="html_a02420e6888ce82ff964eac09dd2672a" style="width: 100.0%; height: 100.0%;"><b>South Beach</b><br>Total plovers observed: 67<br>Mean nest success: 0.68<br>Number of nests: 3</div>`)[0];
+                popup_1f415a19be966c720a7ca2fe086faf16.setContent(html_a02420e6888ce82ff964eac09dd2672a);
+            
+        
+
+        circle_67cf36f693a4b23dfb26e9aa2f58cda5.bindPopup(popup_1f415a19be966c720a7ca2fe086faf16)
+        ;
+
+        
+    
+    
+            tile_layer_72b4f824ea5ffd6a69a1b5955c7f5a41.addTo(map_dc5602fc6cf3d0adc6c11910180d4e58);
+        
+    
+            tile_layer_72b4f824ea5ffd6a69a1b5955c7f5a41.addTo(map_dc5602fc6cf3d0adc6c11910180d4e58);
+        
+    
+            tile_layer_72b4f824ea5ffd6a69a1b5955c7f5a41.addTo(map_dc5602fc6cf3d0adc6c11910180d4e58);
+        
+</script>
+</html>
